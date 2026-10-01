@@ -80,6 +80,7 @@
       <a href="#education" data-nav>Education</a>
       <a href="#skills" data-nav>Skills</a>
       <a href="#experience" data-nav>Experience</a>
+      <a href="#services" data-nav>Services</a>
       <a href="#projects" data-nav>Projects</a>
       <a href="#contact" data-nav>Contact</a>
     </nav>
@@ -96,6 +97,7 @@
   <a href="#education" data-nav>Education</a>
   <a href="#skills" data-nav>Skills</a>
   <a href="#experience" data-nav>Experience</a>
+  <a href="#services" data-nav>Services</a>
   <a href="#projects" data-nav>Projects</a>
   <a href="#contact" data-nav>Contact</a>
 </div>
@@ -202,14 +204,20 @@
     <div class="eyebrow">Education</div>
     <h2>Academic background</h2>
   </div>
-  <div class="timeline" id="eduTimeline">
-    <div class="progress-line" id="eduProgress"></div>
-    <div class="t-item reveal">
-      <span class="t-dot"></span>
-      <div class="t-date">AUG 2025 — AUG 2029</div>
-      <div class="t-title">Bachelor in Computers and Information Science</div>
-      <div class="t-sub">Damanhour University</div>
+  <div class="education-content">
+    <div class="timeline" id="eduTimeline">
+      <div class="progress-line" id="eduProgress"></div>
+      <div class="t-item reveal">
+        <span class="t-dot"></span>
+        <div class="t-date">AUG 2025 — AUG 2029</div>
+        <div class="t-title">Bachelor in Computers and Information Science</div>
+        <div class="t-sub">Damanhour University</div>
+      </div>
     </div>
+    <figure class="education-logo-card reveal reveal-delay-1">
+      <img class="education-logo" src="faculty-logo.png" alt="Faculty of Computers and Information, Damanhour University emblem" loading="lazy" decoding="async">
+      <figcaption>Faculty of Computers &amp; Information</figcaption>
+    </figure>
   </div>
 </section>
 
@@ -291,7 +299,7 @@
 
   <div class="exp-item reveal">
     <div class="exp-date">JUL 2026 — SEP 2026</div>
-    <div>
+    <div class="exp-details">
       <div class="exp-role">Web Development (React) Trainee</div>
       <div class="exp-org">Information Technology Institute (ITI) — Summer Training Program</div>
       <ul class="exp-list">
@@ -301,11 +309,12 @@
         <li>Using Git and GitHub for version control</li>
       </ul>
     </div>
+    <div class="exp-logo-card"><img class="exp-logo" src="iti-logo.png" alt="Information Technology Institute logo" loading="lazy" decoding="async"></div>
   </div>
 
   <div class="exp-item reveal">
     <div class="exp-date">JUL 2026 — DEC 2026</div>
-    <div>
+    <div class="exp-details">
       <div class="exp-role">Software Testing Trainee</div>
       <div class="exp-org">Digital Egypt Pioneers Initiative (DEPI)</div>
       <ul class="exp-list">
@@ -314,7 +323,53 @@
         <li>Working with software testing techniques and best practices</li>
       </ul>
     </div>
+    <div class="exp-logo-card"><img class="exp-logo" src="depi-logo.png" alt="Digital Egypt Pioneers Initiative logo" loading="lazy" decoding="async"></div>
   </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section id="services" class="section wrap">
+  <div class="section-head reveal">
+    <div class="eyebrow">Services</div>
+    <h2>How I can help</h2>
+    <p>Thoughtful frontend work and practical testing to help make your next web project polished, responsive and reliable.</p>
+  </div>
+
+  <div class="service-grid">
+    <article class="service-card reveal">
+      <div class="service-card-top">
+        <span class="service-number">01 / BUILD</span>
+        <span class="service-mark" aria-hidden="true">&lt;/&gt;</span>
+      </div>
+      <h3>Frontend development</h3>
+      <p>Clean, user-friendly websites built with modern frontend fundamentals and attention to the details that make an interface feel finished.</p>
+      <div class="service-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+    </article>
+
+    <article class="service-card reveal reveal-delay-1">
+      <div class="service-card-top">
+        <span class="service-number">02 / DESIGN</span>
+        <span class="service-mark" aria-hidden="true">↗</span>
+      </div>
+      <h3>Responsive interfaces</h3>
+      <p>Responsive layouts and landing pages that adapt smoothly across screen sizes, with clear content hierarchy and intuitive interactions.</p>
+      <div class="service-tags"><span>Mobile-first</span><span>UI implementation</span></div>
+    </article>
+
+    <article class="service-card reveal reveal-delay-2">
+      <div class="service-card-top">
+        <span class="service-number">03 / VERIFY</span>
+        <span class="service-mark" aria-hidden="true">✓</span>
+      </div>
+      <h3>Software testing &amp; QA</h3>
+      <p>Manual checks of user flows, careful test cases and clear bug reports to help catch issues before they reach your users.</p>
+      <div class="service-tags"><span>Manual testing</span><span>Test cases</span><span>Bug reporting</span></div>
+    </article>
+  </div>
+
+  <a href="#contact" class="service-cta" data-cursor="link">Have something in mind? Let's talk
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
+  </a>
 </section>
 
 <!-- ============ PROJECTS ============ -->
